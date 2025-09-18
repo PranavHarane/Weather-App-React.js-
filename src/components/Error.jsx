@@ -13,7 +13,7 @@ const Error = (props) => {
     [props.error]
     ); 
 
-    return <div id="message" style={{display:display}} ><p id="message-text">{props?.error}</p></div>
+    return <div className="border-2 border-solid border-[#00ddff] rounded-[15px] none absolute top-[10vh]" style={{display:display}} ><p  className="text-[20px] p-[8px_16px]">{props?.error}</p></div>
 }
 
 export default Error;

@@ -1,13 +1,15 @@
-* {
+@import "tailwindcss";
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
     font-size: 18px;
     color: black;
-}
+} */
 
-#background {
+/* #background {
     background-image: url("/public/BackgroundImage.jpg");
     background-size: cover;
     background-position: center;
@@ -15,22 +17,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#message{
+/* #message{
     border: 2px solid rgb(75, 252, 255);
-    border-radius: 15px;
+    border-radius: 15px; 
     display: none;
     position: absolute;
-    top: 60px;
-}
+    top: 10vh;
+} */
 
-#message-text{
+/* #message-text{
     font-size: 20px;
     padding: 8px 16px;
-}
+} */
 
-#weather-card {
+/* #weather-card {
     height : 60vh;
     width: 26vw;
     background: rgba(255, 255, 255, 0.2);
@@ -43,66 +45,67 @@
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
     padding: 30px;
-}
+} */
 
-#search-box{
+/* #search-box{
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#search-value {
+/* #search-value {
     width: 80%;
     padding: 10px 10px 14px 20px;
     border-radius: 30px 0 0 30px;
     border: none;
     outline: none;
-}
+} */
 
-#search-button {
+/* #search-button {
     height: 100%;
     padding: 10px 16px 10px 10px;
     background: rgb(255, 188, 63);
     border: none;
     border-radius: 0 30px 30px 0;
     cursor: pointer;
-}
+} */
 
-#search-button img {
+/* #search-button img {
     width: 20px;
     height: 20px;
-}
+} */
 
-#location{
+/* #location{
     font-size: 22px;
     font-weight: 700;
-}
+} */
 
-#weather-image {
+/* #weather-image {
     height: max-content;
     width: 90px;
     margin-top: -20px;
     align-self: center;
-}
+} */
 
-.temperature{
+/* .temperature{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 60px;
     font-weight: 600;
     color: black;
-}
+} */
 
-#weather-info {
+/* #weather-info {
     display: flex;
     justify-self: center;
     justify-content: space-around;
     margin-top: 10px;
     font-size: 14px;
-}
+} */
 
-#weather-info span {
+/* #weather-info span {
     font-weight: bold;
     color: orange;
-}
+} */
